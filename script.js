@@ -52,5 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("reveal_icon").textContent = icon;
 
     toggleIconContainer(true);
+
+    document.querySelector('#reveal_icon').scrollIntoView({behavior: 'smooth'});
   });
 });
