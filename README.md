@@ -2,6 +2,9 @@
 
 This repo holds the one page demo for SEE Psychic Trainer.
 
+Try it here:
+https://whatcanyousee.github.io/seepsychictrainerdemo/
+
 
 ### Source Credits
 
