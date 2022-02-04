@@ -4,27 +4,47 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>SEE Psychic Trainer Demo</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./stylesheet.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SEE Psychic Trainer Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./symbols.js"></script>
+</head>
+
+<body>
+    <div class="container-grp">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>Signature Confirmation</header>
-        <div class="signature-pad-container">
-            <a class="button-text" id="clear_button">CLEAR</a>
-            <canvas id="signature_pad"></canvas>
+        <div class="header-container">
+            <img src="assets/Full_Logo_Combined.png" class="hdr-img">
+            <h1 class="main-font-bold green">Psychic Trainer Demo</h1>
         </div>
-        
-        <a class="button button-primary" id="finish_button">Finish</a>
-        <script src="./script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js" integrity="sha256-W+ivNvVjmQX6FTlF0S+SCDMjAuTVNKzH16+kQvRWcTg=" crossorigin="anonymous"></script>
-        
-    </body>
+
+        <div class="signature-pad-container">
+            <canvas id="signature_pad"></canvas>
+            <div class="btn-group">
+                <a class="button-text green main-font" id="clear_button">Clear</a>
+                <a class="button-text green main-font" id="reveal_button">Reveal Target</a>
+            </div>
+        </div>
+
+        <div id="icon-reveal-container">
+            <div class="icon-container">
+                <label id="reveal_icon" class="icomoon"></label>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"
+        integrity="sha256-W+ivNvVjmQX6FTlF0S+SCDMjAuTVNKzH16+kQvRWcTg=" crossorigin="anonymous"></script>
+
+</body>
+
 </html>

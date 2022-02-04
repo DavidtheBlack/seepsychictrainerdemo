@@ -10,3 +10,4 @@ https://whatcanyousee.github.io/seepsychictrainerdemo/
 
 * Signature Pad source library from https://github.com/szimek/signature_pad
 * Original code created by [Alexander Kavanaugh](https://codepen.io/kavdev/pen/dQdveZ)
+* All images and content belong to their respective owners
